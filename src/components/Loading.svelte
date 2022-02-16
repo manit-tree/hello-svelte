@@ -1,5 +1,5 @@
 <div class="ux-loading">
-    <img src="./static/icon-loading.svg" width="36" height="36" alt="loading" class="spin" />    
+    <img src="/icon-loading.svg" width="36" height="36" alt="loading" class="spin" />    
 </div>
 
 <style lang="scss">

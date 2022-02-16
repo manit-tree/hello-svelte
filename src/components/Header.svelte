@@ -17,14 +17,14 @@ const home = () => {
 
 <div class="ux-header">
     {#if $app.active_page != 'home'}
-    <img src="./static/icon-back.svg" width="24" height="24" alt="back" class="ux-icon-left" on:click={back} />
+    <img src="/icon-back.svg" width="24" height="24" alt="back" class="ux-icon-left" on:click={back} />
     {/if}
     <div class="ux-title">
-        <img src="./static/svelte.png" width="32" height="32" alt="svelte" />
+        <img src="/svelte.png" width="32" height="32" alt="svelte" />
         <h1>Hello Svelte</h1>
     </div>
     {#if $app.active_page != 'home'}
-    <img src="./static/icon-home.svg" width="24" height="24" alt="home" class="ux-icon-right" on:click={home} />
+    <img src="/icon-home.svg" width="24" height="24" alt="home" class="ux-icon-right" on:click={home} />
     {/if}
 </div>
 
